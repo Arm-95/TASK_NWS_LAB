@@ -1,0 +1,38 @@
+.category {
+  position: relative;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  background-color: rgb(232, 10, 176);
+  z-index: 999;
+  li {
+    float: left;
+    &.active{
+      background-color: #d67bb3;
+        border-radius: 10%;
+    }
+    a{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      transition: all 0.6s;
+      &:hover{
+        background-color: #d67bb3;
+        transition: 0.6s;
+        border-radius: 10%;
+         
+      }
+
+    }
+  }
+}
+

@@ -1,0 +1,5 @@
+export const GET_IMAGES = "GET_IMAGES"
+export const SET_PAGE = "SET_PAGE"
+export const RESET = "RESET"
+export const GET_CATEGORIES = "GET_CATEGORIES"
+export const SELECT_CATEGORY = "SELECT_CATEGORY"
